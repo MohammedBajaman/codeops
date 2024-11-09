@@ -1,0 +1,251 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar a, .sign-up {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sign-up {
+    padding: 10px 20px;
+    background-color: #f8a834;
+    border: none;
+    border-radius: 5px; 
+}
+.sign-up:hover{
+    color: black;
+    background-color: floralwhite;
+    cursor: pointer;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+}
+
+.hero-text h2 span {
+    color: #a78bfa;
+}
+
+.hero-image img {
+    border-radius: 50%;
+}
+
+.stats span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.courses {
+    padding: 40px 0;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.course-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #333;
+    text-align: center;
+}
+
+.course-box.uiux { background-color: #f43f5e; }
+.course-box.web-dev { background-color: #fbbf24; }
+.course-box.marketing { background-color: #38bdf8; }
+.course-box.practical { background-color: #a78bfa; }
+
+.course-box.uiux:hover {border:1px solid #f43f5e; background-color: #1a1a1a; cursor: pointer;}
+.course-box.web-dev:hover {border:1px solid #fbbf24; background-color: #1a1a1a;cursor: pointer; }
+.course-box.marketing:hover {border:1px solid #38bdf8; background-color: #1a1a1a; cursor: pointer;}
+.course-box.practical:hover {border:1px solid #a78bfa; background-color: #1a1a1a; cursor: pointer;}
+
+
+
+
+
+
+
+.browse-all {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f8a834;
+    border: none;
+    border-radius: 5px;
+}
+.browse-all:hover{
+    background-color: black;
+    border: #fbbf24 1px solid;
+    color: #fff;
+    cursor: pointer;
+}
+.hero-image img {
+    width: 300px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%;
+}
+/* About Section */
+.about-section {
+    padding: 80px 20px;
+    background-color: #2a2a2a; /* Dark background for contrast */
+    color: #fff;
+    width: 100%;
+    text-align: left; /* Left-align for a more readable, long-form style */
+    float: left;
+}
+
+.about-container {
+    max-width: 900px; /* Wider max-width for a long-form look */
+    /* margin: auto; */
+}
+
+.about-section h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left; /* Centering the heading */
+}
+
+.about-description {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    text-align: justify; /* Justify the text for a clean long-form look */
+}
+/* Instructional Section */
+.instruction-section {
+    /* padding: 80px 20px; */
+    /* background-color: #f1f1f1; Light background color to differentiate */
+    color: #333;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 50px; Adds extra space above to visually separate it from other sections */
+}
+
+.instruction-container {
+    max-width: 800px;
+    /* margin: auto; */
+}
+
+.instruction-section h2 {
+    font-size: 2.5em;
+    /* margin-bottom: 40px; */
+    color: #1a1a1a;
+}
+
+.instruction-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.instruction-item {
+    background-color: #5867ebf3;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.instruction-item:hover{
+background-color: #1a1a1a;
+border: #04bdf5 1px solid;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.instruction-item h3 {
+    font-size: 1em;
+    /* margin-bottom: 10px; */
+    color: #ffffff; /* Accent color */
+}
+
+.instruction-item p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
+.scratch{
+    border: blue  1px solid;
+    margin-top: 30px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: #04bdf5
+}
+
+.scratch p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.scratch:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.engmaster{
+    color: white;
+}
+.aws{
+color: #fff;
+}
+.aws2{
+    color: white;
+}
+.aws3{
+    color: #fff;
+}
+.aws4{
+    color: #fff;
+}
+.codeopsabout{
+    justify-content: center;
+    {
+.{
+    float: right;
+}
+.course{
+    display: flex;
+    justify-content: center;
+}
